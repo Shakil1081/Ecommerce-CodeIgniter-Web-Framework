@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+}
+ul, li{
+	margin:0;
+	padding:0
+}
+h2{
+	text-align:center;
+	padding:20px;
+	font-size:30px
+}
+.header{
+	height:100px;
+	width:100%;
+	border-bottom:1px #CCCCCC solid;
+}
+a.img{
+	background-image:url(cart.png);
+	background-position:20% 50%;
+	background-repeat:no-repeat;
+}
+.logo{
+	background-image:url(logo.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	background-color:#333;
+	height:100px;
+	width:300px;
+}
+.add_to_cart a{
+	height:60px;
+	width:250px;
+	float:right;
+	background-color:#FFF;
+	color:#030;
+	text-align:right;
+	line-height:60px;
+	font-size:20px;
+	margin:20px;
+	border-radius:90px;
+	text-decoration:none;
+	border:1px #CCCCCC solid;
+	padding:0 40px 0 0;
+}
+.add_to_cart a:hover{
+	background-color:#6CFF6C;
+	color:#FFF;
+}
+.nav{
+	height:50px;
+	width:100%;
+	background-color:#FBFBFB;
+	margin:0 0 30px 0;
+}
+.nav ul li{
+	float:left;
+	list-style:none;
+	display:inline;
+	position:relative;
+}
+.nav ul li a{
+	height:50px;
+	width:300px;
+	line-height:50px;
+	display:block;
+	background-color:#FBFBFB;
+	color:#000;
+	font-size:22px;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bolder;
+
+}
+.nav ul li a:hover{
+	background-color:#4ABEBD;
+	color:#FFF;
+	border-bottom:#CCC 1px solid;
+	border-right: 2px #CCCCCC double;
+	font-size:30px;
+}
+.nav ul li ul{
+	visibility:hidden;
+	position:absolute
+}
+.nav ul li:hover ul{
+	visibility:visible;
+}
+.nav ul li ul li{
+	width: 300px;	
+}
+.nav ul li:hover ul li ul{
+	visibility:hidden;	
+}
+.nav ul li ul li:hover ul{
+	visibility:visible;
+	left:300px;
+	top:0;	
+}
+.container{
+	height:830px;
+	width:820px;
+	margin:0 auto;
+	border-top:#F4F4F4 solid 2em;
+	border-bottom:#F4F4F4 solid 3em;
+	border-right:#F4F4F4 solid 1em;
+	border-left:#F4F4F4 solid 1em;
+}
+table tr td input, table tr td select,textarea
+{
+	height:50px;
+	width:400px;
+	border:solid 2px #CCCCCC;
+	margin:4px 5px 0 0;
+	font-size:18px;
+	text-align:center
+}
+table tr td{
+	font-size:24px;
+	text-align:center;
+}
+.footer{
+	height:300px;
+	width:100%;
+	background-color:#333333;
+	margin-top:30px;
+}
